@@ -9,12 +9,12 @@ Tujuannya untuk menguji fungsionalitas login dan filter produk berdasarkan harga
 
 ## Fitur yang Dites
 
-Login:
+* Login:
     * Valid Login
       Berhasil Login dengan username ("standard_user") dan password ("secret_sauce") yang valid.
     * Invalid Login 
       Gagal Login dengan username ("user") dan password ("123") tidak valid dengan notifikasi pesan eror login ("Epic sadface: Username and password do not match any user in this service").
-Homepage: 
+* Homepage: 
     * Filter produk 
       Filter produk berdasarkan harga terendah ke tertinggi (Price low to high).
     * Boundary Test
